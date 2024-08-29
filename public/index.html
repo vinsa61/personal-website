@@ -1,0 +1,192 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Anek Devanagari', sans-serif;
+        }
+    </style>
+    <title>Vinsario Shentana</title>
+    <link rel="icon" href="images/logo-dark.png">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="fixed w-full flex z-50 bg-white py-4 px-6 shadow-lg">
+        <div class="flex items-center justify-between lg:justify-evenly w-full">
+            <div class="flex items-center justify-between gap-5">
+                <img src="images/logo.png" class="h-12 -translate-y-1">
+                <h1 class="text-3xl font-bold md:hidden lg:flex">VINSARIO SHENTANA</h1>
+            </div>
+            <div class="relative md:hidden">
+                <button id="toggleButton" class="text-3xl">&#9776;</button>
+            </div>
+            <div class="md:block hidden">
+                <div class="flex items-center justify-between gap-8">
+                    <a href="#" class="font-medium text-xl">Home</a>
+                    <a href="#about" class="font-medium text-xl">About</a>
+                    <a href="#education" class="font-medium text-xl">Education</a>
+                    <a href="#achievements" class="font-medium text-xl">Achievements</a>
+                    <a href="#skills" class="font-medium text-xl">Skills</a>
+                    <a href="#contact" class="font-medium text-xl">Contact</a>
+                </div>
+            </div>
+            <div id="mobileMenu" class="hidden top-14 right-0 bg-white dark:bg-black border border-gray-300 p-7 rounded shadow text-2xl">
+                <ul class="space-y-4">
+                    <li>
+                        <a href="#" class="font-base text-black dark:text-white active:text-[#FFBD39] dark:active:text-[#38bdf8] hover:font-semibold dark:hover:text-[#38bdf8] hover:text-[#FFBD39] dark:focus:text-[#38bdf8] focus:text-[#FFBD39] transition duration-500">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="font-base text-black dark:text-white active:text-[#FFBD39] dark:active:text-[#38bdf8] hover:font-semibold dark:hover:text-[#38bdf8] hover:text-[#FFBD39] dark:focus:text-[#38bdf8] focus:text-[#FFBD39] transition duration-500">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#education" class="font-base text-black dark:text-white active:text-[#FFBD39] dark:active:text-[#38bdf8] hover:font-semibold dark:hover:text-[#38bdf8] hover:text-[#FFBD39] dark:focus:text-[#38bdf8] focus:text-[#FFBD39] transition duration-500">
+                            Education
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#achievements" class="font-base text-black dark:text-white active:text-[#FFBD39] dark:active:text-[#38bdf8] hover:font-semibold dark:hover:text-[#38bdf8] hover:text-[#FFBD39] dark:focus:text-[#38bdf8] focus:text-[#FFBD39] transition duration-500">
+                            Achievements
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="font-base text-black dark:text-white active:text-[#FFBD39] dark:active:text-[#38bdf8] hover:font-semibold dark:hover:text-[#38bdf8] hover:text-[#FFBD39] dark:focus:text-[#38bdf8] focus:text-[#FFBD39] transition duration-500">
+                            Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="font-base text-black dark:text-white active:text-[#FFBD39] dark:active:text-[#38bdf8] hover:font-semibold dark:hover:text-[#38bdf8] hover:text-[#FFBD39] dark:focus:text-[#38bdf8] focus:text-[#FFBD39] transition duration-500">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <div class="px-10 md:px-16 lg:px-20 xl:px-36 2xl:px-56">
+        <section id="about" class="h-screen flex items-center justify-center">
+            <div class="flex items-center justify-between w-full gap-10">
+                <div class="flex flex-col gap-8 w-full md:w-1/2 text-center md:text-left">
+                    <h1 class="text-6xl md:text-5xl lg:text-6xl font-semibold leading-normal">Welcome to my<br> <span class="text-blue-400">personal website!</span></h1>
+                    <p class="text-lg">Hi, I am Vinsario Shentana!<br>I am a web development and AI enthusiast. I bring fresh energy and a creative edge to every project I touch. I'm always hungry for new knowledge and thrive on tackling challenges head-on.</p>
+                </div>
+                <div class="hidden md:flex md:max-w-1/2 justify-center">
+                    <img src="images/foto.jpg" class="max-w-56">
+                </div>
+            </div>
+        </section>
+        <section id="education" class="pt-4">
+            <h1 class="text-4xl font-semibold mb-4">Education</h1>
+            <div class="flex flex-col justify-between w-full gap-10">
+                <div class="border-black border-l-4">
+                    <h1 class="text-2xl font-semibold ml-4">Informatics Engineering</h1>
+                    <p class="text-lg ml-4">Institut Teknologi Sepuluh Nopember (ITS)</p>
+                    <p class="text-lg ml-4">2023 - present</p>
+                    <div class="pt-6"></div>
+                    <h1 class="text-2xl font-semibold ml-4">Natural Sciences</h1>
+                    <p class="text-lg ml-4">SMA Xaverius 1 Jambi</p>
+                    <p class="text-lg ml-4">2020-2023</p>
+                </div>
+            </div>
+        </section>
+        <section id="achievements" class="pt-36">
+            <h1 class="text-4xl font-semibold mb-4">Achievements</h1>
+            <div class="flex flex-col justify-between w-full gap-10">
+                <div class="border-black border-l-4">
+                    <h1 class="text-2xl font-semibold ml-4 mb-4">Senior Schematics NPC 2023, Finalist</h1>
+                    <p class="text-lg ml-4">The Schematics National Programming Contest (Schematics NPC) is a prestigious national programming competition hosted by the Department of Informatics at Institut Teknologi Sepuluh Nopember (ITS). It tests participants' logical reasoning, algorithmic analysis, and programming skills to solve complex challenges. Competitors must develop computer programs to address the problems presented.</p>
+                    <div class="pt-6"></div>
+                    <h1 class="text-2xl font-semibold ml-4 mb-4">East Java KIM Hackathon 2023, Finalist</h1>
+                    <p class="text-lg ml-4">KIM Hackathon is a prestigious business competition hosted by JCI East Java. The participants works as a team of 4 people developing a business model, design, and website for KIM (Kelompok Informasi Masyarakat) Jatim. Competitors must develop a website as well as business model to solve their problems, give a best solution, and give the best presentation possible.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="pt-48">
+            <h1 class="text-4xl font-semibold mb-4">Skills</h1>
+            <div class="grid lg:grid-cols-8 sm:grid-cols-6 grid-cols-5 gap-3">
+                <img src="images/c.svg" class="w-16 h-16 md:w-24 md:h-24 object-contain">
+                <img src="images/cpp.svg" class="w-16 h-16 md:w-24 md:h-24 object-contain">
+                <img src="images/html5.svg" class="w-16 h-16 md:w-24 md:h-24 object-contain">
+                <img src="images/css.svg" class="w-16 h-16 md:w-24 md:h-24 object-contain">
+                <img src="images/tailwind.svg" class="w-16 h-16 md:w-24 md:h-24 object-contain">
+                <img src="images/python.svg" class="w-16 h-16 md:w-24 md:h-24 object-contain">
+                <img src="images/js.svg" class="w-16 h-16 md:w-24 md:h-24 object-contain">
+                <img src="images/vsc.svg" class="w-16 h-16 md:w-24 md:h-24 object-contain">
+            </div>
+        </section>
+        <section id="contact" class="h-screen flex flex-col items-center gap-5 pt-32">
+            <h1 class="text-4xl font-semibold mb-8">Contacts</h1>
+            <div class="flex flex-col items-center justify-center">
+                <div class="flex items-center justify-center">
+                    <img src="images/email.svg" class="w-8 object-contain -translate-y-1">
+                    <h1 class="text-xl font-base ml-1">Email</h1>
+                </div>
+                <h1 class="text-lg">vinsarioshen610@gmail.com</h1>
+            </div>
+            <div class="flex flex-col items-center justify-center">
+                <div class="flex items-center justify-center">
+                    <img src="images/phone.svg" class="w-6 object-contain -translate-y-1">
+                    <h1 class="text-xl font-base ml-1">Phone</h1>
+                </div>
+                <h1 class="text-lg">+62 821 8278 3996</h1>
+            </div>
+            <a href="https://github.com/vinsa61" target="_blank">
+                <div class="flex flex-col items-center justify-center">
+                    <div class="flex items-center justify-center">
+                        <img src="images/github.svg" class="w-6 object-contain -translate-y-1">
+                        <h1 class="text-xl font-base ml-1">Github</h1>
+                    </div>
+                    <h1 class="text-lg">vinsa61</h1>
+                </div>
+            </a>
+            <a href="https://www.instagram.com/vinsa61._" target="_blank">
+                <div class="flex flex-col items-center justify-center">
+                    <div class="flex items-center justify-center">
+                        <img src="images/instagram.svg" class="w-8 object-contain -translate-y-1">
+                        <h1 class="text-xl font-base ml-1">Instagram</h1>
+                    </div>
+                    <h1 class="text-lg">@vinsa61._</h1>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/vinsa/" target="_blank">
+                <div class="flex flex-col items-center justify-center">
+                    <div class="flex items-center justify-center">
+                        <img src="images/linkedin.svg" class="w-8 object-contain -translate-y-1">
+                        <h1 class="text-xl font-base ml-1">Linkedin</h1>
+                    </div>
+                    <h1 class="text-lg">Vinsario Shentana</h1>
+                </div>
+            </a>
+        </section>
+    </div>
+    <footer class="w-full flex shadow-lg p-4 justify-center">
+        <img src="images/logo.png" class="h-5">
+        <h1>©2024 Vinsario Shentana</h1>
+    </footer>
+    <script>
+        document.getElementById('toggleButton').addEventListener('click', function() {
+            var div = document.getElementById('mobileMenu');
+            if (div) {
+                if (div.classList.contains('absolute')) {
+                div.classList.remove('absolute');
+                div.classList.add('hidden');
+            } else {
+                div.classList.remove('hidden');
+                div.classList.add('absolute');
+            }
+            }
+        });
+    </script>
+    
+</body>
+</html>
